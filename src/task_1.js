@@ -39,7 +39,6 @@ function Task_1({ row = 4, col = 4, NO_OF_RED_BOX = 2 }) {
     
     event.target.className = CLICKEDCELL;
     event.target.innerHTML = `Box ${clicks}`;
-    event.target.removeEventListener('click', (e)=>{});
   }
 
   return (
