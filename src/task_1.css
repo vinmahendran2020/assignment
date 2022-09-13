@@ -20,3 +20,17 @@ div.game {
   border: 1px solid ;
   box-sizing: border-box;
 }
+
+.clicked {
+  background: rgb(186, 37, 37);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.un-clicked {
+  background: rgb(47, 66, 194);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

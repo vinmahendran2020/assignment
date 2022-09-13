@@ -6,7 +6,7 @@ import { useState } from 'react';
 import 'react-tabs/style/react-tabs.css';
 
 
-function App({ row = 4, col = 4, NO_OF_RED_BOX = 2 }) {
+function App() {
 
   const [tabIndex, setTabIndex] = useState(0);
 
@@ -16,11 +16,11 @@ function App({ row = 4, col = 4, NO_OF_RED_BOX = 2 }) {
 
       <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
         <TabList>
-          <Tab>Task 1</Tab>
           <Tab>Task 2</Tab>
+          <Tab>Task 1</Tab>
         </TabList>
-        <TabPanel><Task_1></Task_1></TabPanel>
-        <TabPanel><Task_2></Task_2></TabPanel>
+        <TabPanel><Task_2/></TabPanel>
+        <TabPanel><Task_1/></TabPanel>
       </Tabs>
     </div>
   );

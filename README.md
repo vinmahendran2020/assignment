@@ -51,3 +51,5 @@ Each of the task has a basic UI skeleton which is open for improvement/enhanceme
 - Clone this repository in your local machine,
 - Complete the task and upload to github,
 - Share your public repo link with us.
+
+## Solution
